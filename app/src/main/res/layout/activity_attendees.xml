@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityAttendees"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#273a64"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mitr"
+            android:text="รายชื่อผู้เข้าร่วมกิจกรรม"
+            android:textColor="#FFFFFF"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:id="@+id/Actname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/mitr"
+            android:text="======ชื่อกิจกรรม======"
+            android:textColor="#FFFFFF"></TextView>
+</LinearLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/eachStudentList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
